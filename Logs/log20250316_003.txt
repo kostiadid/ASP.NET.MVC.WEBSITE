@@ -1,0 +1,10 @@
+2025-03-16 16:42:04.175 -03:00 [INF] Cool!
+2025-03-16 16:42:04.181 -03:00 [INF] http://localhost:5127
+2025-03-16 16:42:07.085 -03:00 [INF] HTTP GET / responded 200 in 1490.5298 ms
+2025-03-16 16:42:14.753 -03:00 [INF] HTTP GET /Services responded 200 in 49.5065 ms
+2025-03-16 16:42:15.551 -03:00 [INF] HTTP GET /Home/Contacts responded 200 in 70.8901 ms
+2025-03-16 16:42:16.259 -03:00 [INF] HTTP GET /Services responded 200 in 6.9254 ms
+2025-03-16 16:42:16.910 -03:00 [INF] HTTP GET / responded 200 in 6.5655 ms
+2025-03-16 16:42:19.889 -03:00 [INF] HTTP GET /Admin/ServicesEdit responded 200 in 107.3284 ms
+2025-03-16 16:42:19.896 -03:00 [INF] HTTP GET /img/ responded 404 in 1.3425 ms
+2025-03-16 16:42:27.039 -03:00 [INF] HTTP GET /Admin responded 200 in 44.7552 ms

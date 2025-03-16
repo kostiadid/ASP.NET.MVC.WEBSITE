@@ -1,0 +1,37 @@
+@model ServiceDTO
+@{
+    string? stringTitle = Model.Title;
+    ViewBag.Title = stringTitle;
+}
+
+@await Html.PartialAsync("_SidebarPartial")
+<div class="col-8 col-12-medium imp-medium">
+    <div id="content">
+        <h2 class="service-item">
+            @stringTitle
+        </h2>
+        @if(Model.CategoryName != null)
+        {
+            <div>
+                Category<span class="text-bold">@Model.CategoryName</span>
+            </div>
+        }
+        <div class="service-item">
+            Type of service:Category <span class="text-bold">@Model.Type</span>
+        </div>
+        <div class="service-item">
+            <img src="~/@Model.PhotoFileName"class="img-block"/>
+        </div>
+        <div class="service-item">
+            @Html.Raw(@Model.DescriptionShort)
+        </div>
+        <div class="service-item">
+            @Html.Raw(@Model.Description)
+        </div>
+    </div>
+</div>
+
+
+// minutes 51
+// https://www.youtube.com/watch?v=DIEGhDmBw6E
+
